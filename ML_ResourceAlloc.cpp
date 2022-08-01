@@ -969,7 +969,7 @@ int main(){
             break;
         case 3:
             fp1 = fopen("optimizeAlloc_capacity.csv","w");
-            fp2 = fopen("optimizeAlloc_C_node_p.csv","w");
+            fp2 = fopen("optimizeAlloc_C_node_P.csv","w");
             fp3 = fopen("optimizeAlloc_C_node_T.csv","w");
             for(ID=1; ID<=18; ID++){
                 init_genrand64(880703);
